@@ -1,0 +1,25 @@
+{
+  "name": "publish-counts-client-side",
+  "version": "1.0.0",
+  "description": "Use publish-counts-meteor-package-in-other-client",
+  "main": "dist/publish-counts-client-side.bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LVBK/publish-counts-client-side.git"
+  },
+  "keywords": [
+    "\"meteor\""
+  ],
+  "author": "\"publish-counts\",",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LVBK/publish-counts-client-side/issues"
+  },
+  "homepage": "https://github.com/LVBK/publish-counts-client-side#readme",
+  "dependencies" :{
+    "ows-meteor-client-side": "^1.0.0"
+  }
+}
