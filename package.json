@@ -1,6 +1,6 @@
 {
   "name": "publish-counts-client-side",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use publish-counts-meteor-package-in-other-client",
   "main": "dist/publish-counts-client-side.bundle.js",
   "scripts": {
