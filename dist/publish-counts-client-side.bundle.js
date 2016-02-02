@@ -26,9 +26,14 @@ var Counts;
 /////////////////////////////////////////////////////////////////////////////////////
                                                                                    //
 Counts = new Mongo.Collection('counts');                                           // 1
+
+Counts.getRecord = function(name) {
+  return this.findOne(name);
+};
                                                                                    // 2
 Counts.get = function countsGet (name) {                                           // 3   // 4
-  return this.findOne(name);                                             // 5
+  var count = this.findOne(name);                                                  // 4
+  return count && count.count || 0;                                              // 5
 };                                                                                 // 6
                                                                                    // 7
 Counts.has = function countsHas (name) {                                           // 8
